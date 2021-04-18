@@ -1,0 +1,36 @@
+input,
+textarea {
+  text-align: right;
+}
+
+.navbar-nav.ml-auto {
+  margin-left: unset !important;
+}
+
+.navbar-nav.mr-auto {
+  margin-right: unset !important;
+}
+
+.messages {
+  border-left: 0;
+  border-right: 3px solid #3490dc;
+}
+
+.messages .message {
+  text-align: right;
+  margin: 0 15px 10px 0;
+}
+
+.messages :before {
+  left: unset;
+  right: -30px;
+  top: 10px;
+  border-color: transparent transparent transparent #ddd;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav {
+    flex-direction: row-reverse;
+  }
+}
+

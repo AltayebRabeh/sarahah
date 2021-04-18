@@ -1,0 +1,55 @@
+body {
+    background: none;
+}
+
+.navbar-light .navbar-nav .nav-item {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-weight: 600;
+    color: #506690;
+}
+
+.sarahah-url {
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.messages {
+    margin-top: 40px;
+    border-left: 3px solid #3490dc;
+    .message {
+        text-align: left;
+        padding: 5px;
+        background-color: #ddd;
+        margin: 0 0 10px 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        position: relative;
+        p {
+            margin-bottom: 5px;
+        }
+        span {
+            font-size: 12px;
+            svg {
+                padding-bottom: 1px;
+            }
+        }
+    }
+    ::before {
+        content: "";
+        border-style: solid;
+        border-width: 15px;
+        position: absolute;
+        left: -30px;
+        top: 10px;
+        border-color: transparent #ddd transparent transparent;
+    }
+}
+
+textarea {
+    min-height: 100px;
+    font-size: 1.2rem !important;
+    resize: none;
+}
+
